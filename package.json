@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
+  "engines": {
+    "node": "16.18.0",
+    "npm":"9.8.0"
+  },
   "scripts": {
-    "start":"nodemon app.js",
-    "build":"nodemon build app.js"
-
+    "start":"node app.js"
   },
   "keywords": [],
   "author": "",
